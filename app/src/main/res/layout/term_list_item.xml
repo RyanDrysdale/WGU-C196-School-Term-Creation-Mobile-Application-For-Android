@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_bright">
+
+        <TextView
+            android:id="@+id/term_item_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terms" />
+
+        <TextView
+            android:id="@+id/term_course_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/term_item_text_view"
+            android:layout_marginLeft="16dp"
+            android:background="@android:color/holo_blue_bright"
+            android:text="Courses" />
+
+    </RelativeLayout>
+
+</LinearLayout>
